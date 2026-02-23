@@ -1,5 +1,14 @@
 # Hello-world-exe
-The simplest "Hello World" executable program to test cybersec related things.
+The simplest "Hello World" executable program to test cybersec related things:
+
+```c
+#include <stdio.h>
+
+int main(void) {
+    printf("Hello, world!\n");
+    return 0;
+}
+```
 
 1. Compiled with cl.exe.
 2. hello.exe SHA256 Hash:
